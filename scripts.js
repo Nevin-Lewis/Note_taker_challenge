@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const util = require('util');
 const uuid = require('./helpers/uuid');
+const api = require('./public/assets/js/index.js');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
