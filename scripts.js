@@ -13,10 +13,10 @@ const readFromFile = util.promisify(fs.readFile);
 app.use(express.static('public'));
 
 app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/assets/index.html'))
+  res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/assets/notes.html'))
+    res.sendFile(path.join(__dirname, '/public/notes.html'))
     console.info(`${req.method} request received to get note`);
   });
 app.get('/api/notes', (req, res) => {
