@@ -18,10 +18,24 @@ This is the repo for the Note taker challenge
 To install necessary depnedencies, run the follow commands:
 
 ```
+git clone git@github.com:Nevin-Lewis/Note_taker_challenge.git
+```
 
+Enter your password then open a terminal in the new copied folder. Run:
+
+```
+npm i
 ```
 
 ## Usage
+To start this app run:
+
+```
+npm start
+```
+After running the previous code, click the link that will take you to the note taker page locally. Click get started then enter, and edit notes as desired. After adding a note click the save icon in the top right corner to save the file locally. 
+
+Alternatively, you can find a live deployed version at the following link: https://immense-hollows-30521.herokuapp.com/notes 
 
 
 ## License
@@ -46,11 +60,13 @@ MIT License
 
 
 ## Test
-To run tess, run the following command:
+To run a test, run the following command:
 
 ```
-
+N/A
 ```
+<img width="1800" alt="Screenshot 2023-01-02 at 9 10 35 AM" src="https://user-images.githubusercontent.com/64855834/210249628-a7826589-409c-48af-9c5f-139d77d539a4.png">
+
 
 ## Questions
 If you have any quetsions about the repo, open an issue or contact me directly at github.com/nevin-lewis
